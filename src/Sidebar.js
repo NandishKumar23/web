@@ -18,7 +18,7 @@ function Sidebar() {
     <div className='Sidebar'>
 
         <div className='My_data'>
-          <img src={myImage} alt='author_image'></img>
+          <img src='' alt='author_image'></img>
           
          </div>
          <div className='Data'>
