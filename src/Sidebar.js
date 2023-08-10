@@ -8,7 +8,7 @@ import CoffeeIcon from '@mui/icons-material/Coffee';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
-
+import myImage  from "./image.jpeg";
 
 
 
@@ -18,7 +18,7 @@ function Sidebar() {
     <div className='Sidebar'>
 
         <div className='My_data'>
-          <img src='https://lh3.googleusercontent.com/drive-viewer/AITFw-x6et7nkIWWvFMOcUFzs2hncLg3YDJz9GOcECDO-0p-YO3spOy4G_5l_18feXmmEBUV3qpPt3rVV_hZqaHDUJKZU1d-uw=s1600' alt='author_image'></img>
+          <img src={myImage} alt='author_image'></img>
           
          </div>
          <div className='Data'>
